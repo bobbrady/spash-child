@@ -1,0 +1,72 @@
+/*
+Theme Name: Splash Child
+Template: splash
+Author: Bob Brady
+Version: 0.1
+*/
+
+@import url("../splash/style.css");
+
+body#blog {
+   color: #333;
+}
+
+.logo-wrap, #logo, #logo > a {
+    text-align: center;
+    width: 100%;
+}
+#logo img {
+    float: none;
+}
+
+/*
+.secondary-navigation {
+   background: #B90504;
+}
+*/
+
+.category-list {
+	list-style: none !important;
+}
+.category-list:after li { 
+	content: ''; 
+	clear: both; 
+	visibility: hidden;
+}
+
+.category-list li {
+	margin-top: 20px;
+}
+
+.category-list img { 
+	float: left; 
+	margin-right: 10px;
+}
+
+.category-list p {
+	overflow: hidden;
+}
+
+.category-list li p {
+	margin: 0;
+}
+
+#mtscontact_form {
+    display: none;
+}
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 textarea
+{
+    border-radius: 3px;
+    color: #000;
+    padding: 10px 12px;
+    width: 75%;
+    border: 1px solid #222;
+}
+
+.wpcf7-submit {
+    background-color: red !important;
+    width: 150px;
+}
