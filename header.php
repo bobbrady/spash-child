@@ -70,9 +70,8 @@
 					</div>
 					<?php } ?>
 				</div><!--#header-->
-				<?php if(!is_front_page() && !is_home()) { ?>
-     <div class="breadcrumb" itemprop="breadcrumb"><?php mts_the_breadcrumb(); ?></div>
-    <?php } ?>
+				<?php if ( function_exists('yoast_breadcrumb') && !is_front_page() && !is_home()) {
+    					yoast_breadcrumb('<p id="breadcrumbs">','</p>');} ?>
 			</div><!--.container-->
 		</header>
 
