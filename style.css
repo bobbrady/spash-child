@@ -28,9 +28,9 @@ body#blog {
 .category-list {
 	list-style: none !important;
 }
-.category-list:after li { 
-	content: ''; 
-	clear: both; 
+.category-list:after li {
+	content: '';
+	clear: both;
 	visibility: hidden;
 }
 
@@ -38,8 +38,8 @@ body#blog {
 	margin-top: 20px;
 }
 
-.category-list img { 
-	float: left; 
+.category-list img {
+	float: left;
 	margin-right: 10px;
 }
 
@@ -49,6 +49,31 @@ body#blog {
 
 .category-list li p {
 	margin: 0;
+}
+
+.thumb-list {
+    margin: 0 !important;
+}
+
+.thumb-list ul {
+  list-style-type: none;
+  width: 500px;
+}
+
+.thumb-list li img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+
+.thumb-list li {
+  padding: 10px;
+  overflow: auto;
+}
+
+.thumb-list li:hover {
+  background: #eee;
+  cursor: pointer;
 }
 
 #mtscontact_form {
