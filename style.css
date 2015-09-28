@@ -19,45 +19,9 @@ body#blog {
     float: none;
 }
 
-/*
-.secondary-navigation {
-   background: #B90504;
-}
-*/
-
-.category-list {
-	list-style: none !important;
-}
-.category-list:after li {
-	content: '';
-	clear: both;
-	visibility: hidden;
-}
-
-.category-list li {
-	margin-top: 20px;
-}
-
-.category-list img {
-	float: left;
-	margin-right: 10px;
-}
-
-.category-list p {
-	overflow: hidden;
-}
-
-.category-list li p {
-	margin: 0;
-}
-
-.thumb-list {
-    margin: 0 !important;
-}
-
-.thumb-list ul {
-  list-style-type: none;
-  width: 500px;
+.article .thumb-list {
+    margin: 0 0 30px 0;
+    list-style-type: none;
 }
 
 .thumb-list li img {
